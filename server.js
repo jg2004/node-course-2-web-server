@@ -33,7 +33,7 @@ app.use(express.static(__dirname + '/public'));
 app.get('/projects',(req,res)=>{
 
   res.render('projects.hbs',{
-    pagetTitle:'Projects page',
+    pageTitle:'Projects page',
     message:'Welcome to the projects page!'
   })
 })
